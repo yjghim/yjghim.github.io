@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jun 2022 13:16:18 +0900</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2022 13:16:18 +0900</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2022 18:27:22 +0900</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2022 18:27:22 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -185,36 +185,14 @@
       
     
       
-    
-      
-    
-      
         
           <item>
-            <title>Projects</title>
-            <description>---
+            <title>About</title>
+            <description>&lt;hr /&gt;
 
+&lt;p&gt;페이지를 준비 중입니다.&lt;/p&gt;
 </description>
-            <link>https://yjghim.github.io/projects.html</link>
-          </item>
-        
-      
-    
-      
-    
-      
-        
-          <item>
-            <title>What I learned</title>
-            <description>---
-
-##### 2021
-
-- 2021/09/24
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [현직자와의 대화](https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/)
-</description>
-            <link>https://yjghim.github.io/what-i-learned.html</link>
+            <link>https://yjghim.github.io/about.html</link>
           </item>
         
       
@@ -222,25 +200,69 @@
       
         
           <item>
-            <title>What I read</title>
+            <title>Afterthought</title>
+            <description>&lt;hr /&gt;
+
+&lt;h4 id=&quot;2021&quot;&gt;2021&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2021/09/24
+      
+&lt;a href=&quot;https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/&quot;&gt;현직자와의 대화&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <link>https://yjghim.github.io/afterthought.html</link>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Book Review</title>
+            <description>&lt;hr /&gt;
+
+&lt;h4 id=&quot;it&quot;&gt;IT&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2022/01/09
+      
+&lt;a href=&quot;https://yjghim.github.io/2022/01/09/growing-up-together/&quot;&gt;함께 자라기(애자일로 가는 길) - 김창준&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2021/06/22
+      
+&lt;a href=&quot;https://yjghim.github.io/2021/06/22/understandable-it-knowledge-for-non-major/&quot;&gt;비전공자를 위한 이해할 수 있는 IT지식 - 최원영&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;programming&quot;&gt;Programming&lt;/h4&gt;
+
+&lt;h4 id=&quot;self-development&quot;&gt;Self Development&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2021/10/11
+      
+&lt;a href=&quot;https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/&quot;&gt;최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <link>https://yjghim.github.io/book-review.html</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>Study</title>
             <description>---
 
-##### 2022
-
-- 2022/01/09
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [함께 자라기(애자일로 가는 길) - 김창준](https://yjghim.github.io/2022/01/09/growing-up-together/)
-
-##### 2021
-
-- 2021/10/11
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠](https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/)
-- 2021/06/22
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [비전공자를 위한 이해할 수 있는 IT지식 - 최원영](https://yjghim.github.io/2021/06/22/understandable-it-knowledge-for-non-major/)
+#### Algorithm
 </description>
-            <link>https://yjghim.github.io/what-i-read.html</link>
+            <link>https://yjghim.github.io/study.html</link>
           </item>
         
       
