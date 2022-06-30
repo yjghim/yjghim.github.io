@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 May 2022 16:28:57 +0900</pubDate>
-    <lastBuildDate>Wed, 18 May 2022 16:28:57 +0900</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2022 11:02:02 +0900</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2022 11:02:02 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -64,8 +64,8 @@
 
 </description>
         <pubDate>Sun, 09 Jan 2022 00:00:00 +0900</pubDate>
-        <link>https://yjghim.github.io/2022/01/09/title-01/</link>
-        <guid isPermaLink="true">https://yjghim.github.io/2022/01/09/title-01/</guid>
+        <link>https://yjghim.github.io/2022/01/09/growing-up-together/</link>
+        <guid isPermaLink="true">https://yjghim.github.io/2022/01/09/growing-up-together/</guid>
       </item>
     
       <item>
@@ -111,11 +111,10 @@
 &lt;blockquote&gt;
   &lt;p&gt;” 전문가이면서 다른 분야 사람들을 잘 설득하는 기술. 르메서리어가 이 기술을 잘 발휘한 것이야말로 빌딩을 붕괴 위험에서 구한 원동력이었다. (중략) 전문가는 전문가 이외의 사람을 능숙하게 설득해야 함을 인식한 상태에서 그들과 만나야 한다.”&lt;/p&gt;
 &lt;/blockquote&gt;
-
 </description>
         <pubDate>Mon, 11 Oct 2021 00:00:00 +0900</pubDate>
-        <link>https://yjghim.github.io/2021/10/11/title-01/</link>
-        <guid isPermaLink="true">https://yjghim.github.io/2021/10/11/title-01/</guid>
+        <link>https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/</link>
+        <guid isPermaLink="true">https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/</guid>
       </item>
     
       <item>
@@ -160,8 +159,8 @@
 
 </description>
         <pubDate>Fri, 24 Sep 2021 00:00:00 +0900</pubDate>
-        <link>https://yjghim.github.io/2021/09/24/title-01/</link>
-        <guid isPermaLink="true">https://yjghim.github.io/2021/09/24/title-01/</guid>
+        <link>https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/</link>
+        <guid isPermaLink="true">https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/</guid>
       </item>
     
       <item>
@@ -177,8 +176,8 @@
 &lt;p&gt;책의 저자인 최원영님 또한 나와 같은 비전공자로써, 수많은 시행착오를 겪은 후에 알게된 개념들을 비전공자의 마음을 누구보다 공감하고 헤아려서 글로 풀어 쓰셨다는 것이 책 속의 친절하고 재미있는 설명을 통해 느껴졌다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jun 2021 00:00:00 +0900</pubDate>
-        <link>https://yjghim.github.io/2021/06/22/title-01/</link>
-        <guid isPermaLink="true">https://yjghim.github.io/2021/06/22/title-01/</guid>
+        <link>https://yjghim.github.io/2021/06/22/understandable-it-knowledge-for-non-major/</link>
+        <guid isPermaLink="true">https://yjghim.github.io/2021/06/22/understandable-it-knowledge-for-non-major/</guid>
       </item>
     
 
@@ -212,10 +211,10 @@
             <description>---
 
 ### 2021
-* 2021/09/24
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [현직자와의 대화](https://yjghim.github.io/2021/09/24/title-01/)
 
+- 2021/09/24
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+  [현직자와의 대화](https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/)
 </description>
             <link>https://yjghim.github.io/what-i-learned.html</link>
           </item>
@@ -229,18 +228,19 @@
             <description>---
 
 ### 2022
-* 2022/01/09
+
+- 2022/01/09
   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [함께 자라기(애자일로 가는 길) - 김창준](https://yjghim.github.io/2022/01/09/title-01/)
+  [함께 자라기(애자일로 가는 길) - 김창준](https://yjghim.github.io/2022/01/09/growing-up-together/)
 
 ### 2021
-* 2021/10/11
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠](https://yjghim.github.io/2021/10/11/title-01/)
-* 2021/06/22
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [비전공자를 위한 이해할 수 있는 IT지식 - 최원영](https://yjghim.github.io/2021/06/22/title-01/)
 
+- 2021/10/11
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+  [최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠](https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/)
+- 2021/06/22
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+  [비전공자를 위한 이해할 수 있는 IT지식 - 최원영](https://yjghim.github.io/2021/06/22/understandable-it-knowledge-for-non-major/)
 </description>
             <link>https://yjghim.github.io/what-i-read.html</link>
           </item>
