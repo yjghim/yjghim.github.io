@@ -1,8 +1,8 @@
 # yjghim.github.io
 
-- 개인 블로그입니다.
+- Personal IT blog
 - [yjghim.github.io](https://yjghim.github.io/)
-- 2022.5.8 ~
+- from 2022.5.8
 
 ## Jekyll Theme
 
