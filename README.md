@@ -1,7 +1,7 @@
 # yjghim.github.io
 
-- Personal blog
 - [yjghim.github.io](https://yjghim.github.io/)
+- Personal blog
 - from 2022.5.8
 
 ## Jekyll Theme
