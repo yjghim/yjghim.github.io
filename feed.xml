@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Sep 2022 22:27:44 +0900</pubDate>
-    <lastBuildDate>Mon, 05 Sep 2022 22:27:44 +0900</lastBuildDate>
+    <pubDate>Mon, 24 Oct 2022 22:10:21 +0900</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2022 22:10:21 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -222,22 +222,20 @@
             <title>Book Review</title>
             <description>&lt;hr /&gt;
 
-&lt;h4 id=&quot;it&quot;&gt;IT&lt;/h4&gt;
+&lt;h4 id=&quot;itprogramming&quot;&gt;IT/Programming&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;2022/01/09
-      
-&lt;a href=&quot;https://yjghim.github.io/2022/01/09/growing-up-together/&quot;&gt;함께 자라기(애자일로 가는 길) - 김창준&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;2021/06/22
       
 &lt;a href=&quot;https://yjghim.github.io/2021/06/22/understandable-it-knowledge-for-non-major/&quot;&gt;비전공자를 위한 이해할 수 있는 IT지식 - 최원영&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;programming&quot;&gt;Programming&lt;/h4&gt;
-
-&lt;h4 id=&quot;self-development&quot;&gt;Self Development&lt;/h4&gt;
+&lt;h4 id=&quot;etc&quot;&gt;etc.&lt;/h4&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;2022/01/09
+      
+&lt;a href=&quot;https://yjghim.github.io/2022/01/09/growing-up-together/&quot;&gt;함께 자라기(애자일로 가는 길) - 김창준&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;2021/10/11
       
 &lt;a href=&quot;https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/&quot;&gt;최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠&lt;/a&gt;&lt;/li&gt;
@@ -252,19 +250,6 @@
     
       
     
-      
-    
-      
-        
-          <item>
-            <title>Study</title>
-            <description>---
-
-페이지를 준비 중입니다.
-</description>
-            <link>https://yjghim.github.io/study.html</link>
-          </item>
-        
       
     
 
