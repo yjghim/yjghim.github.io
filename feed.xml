@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Feb 2023 19:17:25 +0900</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2023 19:17:25 +0900</lastBuildDate>
+    <pubDate>Sun, 26 Mar 2023 12:41:53 +0900</pubDate>
+    <lastBuildDate>Sun, 26 Mar 2023 12:41:53 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -205,16 +205,21 @@
             <title>Book Review</title>
             <description>&lt;hr /&gt;
 
-&lt;h4 id=&quot;itprogramming&quot;&gt;IT/Programming&lt;/h4&gt;
+&lt;!-- #### 2023 --&gt;
 
-&lt;!-- -  --&gt;
+&lt;!--  --&gt;
 
-&lt;h4 id=&quot;etc&quot;&gt;etc.&lt;/h4&gt;
+&lt;h4 id=&quot;2022&quot;&gt;2022&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2022/01/09
       
 &lt;a href=&quot;https://yjghim.github.io/2022/01/09/growing-up-together/&quot;&gt;함께 자라기(애자일로 가는 길) - 김창준&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2021&quot;&gt;2021&lt;/h4&gt;
+
+&lt;ul&gt;
   &lt;li&gt;2021/10/11
       
 &lt;a href=&quot;https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/&quot;&gt;최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠&lt;/a&gt;&lt;/li&gt;
