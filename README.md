@@ -2,7 +2,7 @@
 
 - [yjghim.github.io](https://yjghim.github.io/)
 - Personal blog
-- since 2022-05-08
+- since 2022.5.8
 
 ## Jekyll Theme
 

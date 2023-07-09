@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2023 14:43:36 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2023 14:43:36 +0900</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2023 14:57:32 +0900</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2023 14:57:32 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -234,6 +234,33 @@
     
       
     
+      
+    
+      
+        
+          <item>
+            <title>Study</title>
+            <description>---
+
+#### MS SQL Server
+
+&lt;!--
+- 2022/01/09
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+  [함께 자라기(애자일로 가는 길) - 김창준](https://yjghim.github.io/2022/01/09/growing-up-together/)
+--&gt;
+
+#### Pharmaceutical Systems
+
+&lt;!--
+- 2021/10/11
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+  [최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠](https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/)
+--&gt;
+</description>
+            <link>https://yjghim.github.io/study.html</link>
+          </item>
+        
       
     
 
