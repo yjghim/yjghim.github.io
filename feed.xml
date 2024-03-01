@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Young-june Ghim</title>
+    <title>yjghim.io</title>
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Jan 2024 22:20:35 +0900</pubDate>
-    <lastBuildDate>Sat, 27 Jan 2024 22:20:35 +0900</lastBuildDate>
+    <pubDate>Fri, 01 Mar 2024 18:58:02 +0900</pubDate>
+    <lastBuildDate>Fri, 01 Mar 2024 18:58:02 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -173,7 +173,36 @@
             <title>About</title>
             <description>&lt;hr /&gt;
 
-&lt;p&gt;페이지를 준비 중입니다.&lt;/p&gt;
+&lt;p&gt;제약 공장에서 근무하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;현재 의약품 생산 프로세스의 높은 신뢰성을 보장하기 위한 통합 IT솔루션을 운영하고 최적화하는 업무를 하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;빠른 속도로 다음 단계로의 디지털 변혁을 요구받는 제약 산업과, 그 중심에서의 정보기술의 역할에 대해 고민해 보고 있습니다. 제약 산업과 정보기술의 교차점에서 얻은 인사이트와 시너지에 대한 생각을 함께 나누고 성장했으면 합니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;     &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/yjghim&quot;&gt;yjghim&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Contact&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;     &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;mailto:youngjune.ghim@gmail.com&quot;&gt;youngjune.ghim@gmail.com&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--
+1. Afterthought
+   현장에서 마주한 문제들과 해결 방법
+   업무를 경험하면서 한 생각들
+2. Book Review
+   IT 관련 도서 리뷰
+3. Learning
+   IT 관련 공부한 내용 정리
+--&gt;
 </description>
             <link>https://yjghim.github.io/about.html</link>
           </item>
@@ -186,12 +215,8 @@
             <title>Afterthought</title>
             <description>&lt;hr /&gt;
 
-&lt;h4 id=&quot;2021&quot;&gt;2021&lt;/h4&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;2021/09/24
-      
-&lt;a href=&quot;https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/&quot;&gt;현직자와의 대화&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2021-09-24  &lt;b&gt;&lt;a href=&quot;https://yjghim.github.io/2021/09/24/a-conversation-with-it-practitioners/&quot;&gt;현직자와의 대화&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <link>https://yjghim.github.io/afterthought.html</link>
@@ -205,24 +230,9 @@
             <title>Book Review</title>
             <description>&lt;hr /&gt;
 
-&lt;!-- #### 2023 --&gt;
-
-&lt;!--  --&gt;
-
-&lt;h4 id=&quot;2022&quot;&gt;2022&lt;/h4&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;2022/01/09
-      
-&lt;a href=&quot;https://yjghim.github.io/2022/01/09/growing-up-together/&quot;&gt;함께 자라기(애자일로 가는 길) - 김창준&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;2021&quot;&gt;2021&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021/10/11
-      
-&lt;a href=&quot;https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/&quot;&gt;최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2022-01-09  &lt;b&gt;&lt;a href=&quot;https://yjghim.github.io/2022/01/09/growing-up-together/&quot;&gt;함께 자라기(애자일로 가는 길) - 김창준&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;2021-10-11  &lt;b&gt;&lt;a href=&quot;https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/&quot;&gt;최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <link>https://yjghim.github.io/book-review.html</link>
@@ -235,32 +245,24 @@
       
     
       
-    
-      
         
           <item>
-            <title>Study</title>
+            <title>Learning</title>
             <description>---
 
-#### MS SQL Server
+페이지를 준비 중입니다.
 
-&lt;!--
-- 2022/01/09
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [함께 자라기(애자일로 가는 길) - 김창준](https://yjghim.github.io/2022/01/09/growing-up-together/)
---&gt;
+&lt;!-- #### MS SQL Server
 
 #### Pharmaceutical Systems
 
-&lt;!--
-- 2021/10/11
-  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-  [최고의 엔지니어는 어떻게 성장하는가 - 다쿠미 슈사쿠](https://yjghim.github.io/2021/10/11/how-the-best-engineer-grows/)
---&gt;
+#### Design Pattern --&gt;
 </description>
-            <link>https://yjghim.github.io/study.html</link>
+            <link>https://yjghim.github.io/learning.html</link>
           </item>
         
+      
+    
       
     
 

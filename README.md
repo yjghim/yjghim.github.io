@@ -1,8 +1,8 @@
 # yjghim.github.io
 
-- [yjghim.github.io](https://yjghim.github.io/)
-- Personal blog
-- since 2022-05-08
+- [yjghim.io](https://yjghim.github.io/)
+- Personal Blog
+- Since 2022-05-08
 
 ## Jekyll Theme
 
