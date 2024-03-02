@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Mar 2024 18:58:02 +0900</pubDate>
-    <lastBuildDate>Fri, 01 Mar 2024 18:58:02 +0900</lastBuildDate>
+    <pubDate>Sat, 02 Mar 2024 21:46:30 +0900</pubDate>
+    <lastBuildDate>Sat, 02 Mar 2024 21:46:30 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -173,11 +173,13 @@
             <title>About</title>
             <description>&lt;hr /&gt;
 
-&lt;p&gt;제약 공장에서 근무하고 있습니다.&lt;/p&gt;
+&lt;!-- 제약 공장에서 근무하고 있습니다. --&gt;
 
 &lt;p&gt;현재 의약품 생산 프로세스의 높은 신뢰성을 보장하기 위한 통합 IT솔루션을 운영하고 최적화하는 업무를 하고 있습니다.&lt;/p&gt;
 
-&lt;p&gt;빠른 속도로 다음 단계로의 디지털 변혁을 요구받는 제약 산업과, 그 중심에서의 정보기술의 역할에 대해 고민해 보고 있습니다. 제약 산업과 정보기술의 교차점에서 얻은 인사이트와 시너지에 대한 생각을 함께 나누고 성장했으면 합니다.&lt;/p&gt;
+&lt;!-- 빠른 속도로 다음 단계로의 디지털 변혁을 요구받는 제약 산업과, 그 중심에서의 정보기술의 역할에 대해 고민해 보고 있습니다. --&gt;
+
+&lt;p&gt;제약 산업과 정보기술의 교차점에서 얻은 인사이트와 시너지에 대한 생각을 함께 나누고 성장했으면 합니다.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
