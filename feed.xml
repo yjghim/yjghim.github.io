@@ -5,8 +5,8 @@
     <description></description>
     <link>https://yjghim.github.io/</link>
     <atom:link href="https://yjghim.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 May 2024 23:11:54 +0900</pubDate>
-    <lastBuildDate>Sun, 12 May 2024 23:11:54 +0900</lastBuildDate>
+    <pubDate>Sun, 12 May 2024 23:23:35 +0900</pubDate>
+    <lastBuildDate>Sun, 12 May 2024 23:23:35 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -49,13 +49,13 @@
 
 &lt;p&gt;여기서는 고정 서버 역할이 아닌, 사용자 정의 서버 역할을 직접 정의하고 할당해본다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-user-defined-server-role.png&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-user-defined-server-role.PNG&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;일단 위와 같이 새롭게 생성할 사용자 정의 서버 역할의 이름을 ‘tempRole’이라고 지정해주었고, 대상 인스턴스(LABMSSQL) 또한 지정해주었다. 그리고 아래 체크박스를 통해 ‘tempRole’ 역할에 부여할 권한들을 선택해주었다.&lt;/p&gt;
 
 &lt;p&gt;여기까지 서버 로그인 계정(InfraTeam1, InfraTeam2)을 생성하였고, 서버 역할(tempRole) 또한 생성하는 과정까지 살펴보았다. 이제 ‘InfraTeam1’ 로그인 계정을 ‘tempRole’ 서버 역할의 멤버로 추가해야한다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/add-account-as-member-of-server-role.png&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/add-account-as-member-of-server-role.PNG&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;‘InfraTeam1’ 로그인 계정이 ‘tempRole’ 서버 역할의 멤버로 추가되었고, 이후 ‘tempRole’의 권한을 변경하면 ‘InfraTeam1’의 권한 또한 함께 변경된다.&lt;/p&gt;
 
@@ -65,11 +65,11 @@
 
 &lt;p&gt;앞에서 살펴보았듯, 특정 DB에 접근하기 위해선 DB 사용자 계정을 생성하고 이를 서버 로그인 계정과 매핑하는 과정이 필요하다. 해당 과정 없이는 아래와 같이 경고창과 함께 접근이 제한된다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/db-access-before-account-creation.png&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/db-access-before-account-creation.PNG&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;그럼 DB 사용자 계정을 생성해본다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-db-account.png&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-db-account.PNG&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;여기서 User type은 ‘SQL user with login’으로 선택하고, Login name은 이전에 생성했던 서버 로그인 계정인 ‘InfraTeam1’을 선택한다. 이렇게 생성과 매핑이 이루어지고 나면, ‘InfraTeam1’ 계정으로 해당 DB에 대한 접근이 가능해진다.&lt;/p&gt;
 
@@ -79,7 +79,7 @@
 
 &lt;p&gt;여기서도 마찬가지로 사용자 정의 DB 역할을 직접 정의하고 할당해본다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-user-defined-db-role.png&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-user-defined-db-role.PNG&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;위와 같이 새롭게 생성할 사용자 정의 DB 역할의 이름을 ‘tempRole’이라고 지정해주었고, 해당 역할의 멤버로 포함할 계정 또한 InfraTeam1으로 지정해주었다.&lt;br /&gt;
 이제 ‘tempRole’ 역할에 권한을 부여하면 해당 역할의 멤버인 InfraTeam1 계정 또한 부여된 권한을 자동으로 갖게 된다.&lt;/p&gt;
