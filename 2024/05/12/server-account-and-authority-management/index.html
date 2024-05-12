@@ -7,9 +7,9 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <meta name="google-site-verification" content="sg4d5QU5sTnwS96YM3H0mDSqVc1f_ZrMsLbU48Y3GGY" />
 
-  <title>Learning</title>
-  <meta name='description' content="">
-  <link rel='canonical' href="https://yjghim.github.io/learning.html">
+  <title>서버 계정 및 권한 관리</title>
+  <meta name='description' content="현재 신규 시스템 구축을 앞두고 있는 시점에서 크게 ‘개발’과 ‘운영’의 개념으로 업무를 분리하려고 한다. 개발 조직에 불필요한 권한을 부여하지 않고 최소한의 권한만을 부여하여 필요한 작업을 수행할 수 있도록 하고자 하며, 이를 통해 내부 시스템과 데이터에 대한 보안성도 유지하고자...">
+  <link rel='canonical' href="https://yjghim.github.io/2024/05/12/server-account-and-authority-management/">
   <link rel='alternate' type='application/rss+xml' title='yjghim.io' href="https://yjghim.github.io/feed.xml">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 
@@ -108,35 +108,133 @@
 
 </header>
 
-    <div class='o-wrapper'>
+    
 
+
+
+<div class='o-wrapper'>
   <div class='o-grid'>
     <div class='o-grid__col'>
-      <article class='c-post'>
-        <h1 class='c-post__title u-text-center'>Learning</h1>
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
 
-        <div class='c-content'>
+        <h1 class='c-post__title u-text-center'>서버 계정 및 권한 관리</h1>
+
+        <time class='c-post__date' datetime='2024-05-12T00:00:00+09:00' itemprop='datePublished'>12 May 2024</time>
+
+        <div class='c-content' itemprop='articleBody'>
           
 
-          <hr />
+          <p>현재 신규 시스템 구축을 앞두고 있는 시점에서 크게 ‘개발’과 ‘운영’의 개념으로 업무를 분리하려고 한다. 개발 조직에 불필요한 권한을 부여하지 않고 최소한의 권한만을 부여하여 필요한 작업을 수행할 수 있도록 하고자 하며, 이를 통해 내부 시스템과 데이터에 대한 보안성도 유지하고자 한다.</p>
 
-<h5 id="sql-server-운영">SQL Server 운영</h5>
+<p>DB 서버의 계정과 권한 관리에 대한 이해는 시스템의 보안성과 안정성을 보장하는 데에 필수적이라고 할 수 있다. 구분된 각 계정을 통해 사용자 또는 역할이 수행할 수 있는 작업의 범위를 명확하게 정의하여 협업과 관리를 용이하게 할 수 있다.</p>
+
+<hr />
+
+<h5 id="1-두-종류의-계정">1. 두 종류의 계정</h5>
+
+<p>계정의 종류는 크게 2가지로 구분된다.</p>
 
 <ul>
-  <li>2024-05-12  <b><a href="https://yjghim.github.io/2024/05/12/server-account-and-authority-management/">서버 계정 및 권한 관리</a></b></li>
+  <li>서버 로그인 계정</li>
+  <li>DB 사용자 계정</li>
 </ul>
 
-<!-- #### MS SQL Server
+<p>이를 이해하기 위해 하나의 인스턴스 내에 여러 개의 DB가 존재하는 상황을 생각해볼 수 있다. 이러한 경우, 만약 한 종류의 계정만 존재한다면 다수의 DB에 대해 구분된 접근 권한을 부여할 수 없는 문제가 있다. 즉, 서버에 로그인할 수 있는 계정과 특정 DB에 접근할 수 있는 계정을 구분함으로써 인스턴스 내 접근할 수 있는 DB를 선택적으로 제한할 수 있다.</p>
 
-#### Pharmaceutical Systems
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/relationship-between-server-and-db-accounts.jpg" alt="about" /></p>
 
-#### Design Pattern -->
+<p>DB 사용자 계정은 서버 로그인 계정과 매핑되어야 하며, 서버 로그인 계정으로 서버에 접속하더라도 매핑되지 않은 DB에 접근할 수는 없다. 특정 DB에 서버 로그인 계정과 매핑되는 사용자 계정이 존재해야만 해당 DB에 접근할 수 있다.<br />
+(서버 로그인 계정은 master 시스템 DB에, DB 사용자 계정은 해당 DB에 저장됨)</p>
+
+<h5 id="2-서버-로그인-계정">2. 서버 로그인 계정</h5>
+
+<p>두 종류의 계정 중, 서버에 로그인할 수 있는 계정인 서버 로그인 계정에 대해 살펴본다.</p>
+
+<p>우선, ‘계정 관리’와 ‘DB 생성’과 같은 서버 수준의 작업에 대한 서로 다른 권한을 부여하고 이를 비교하기 위해 2개의 계정을 생성한다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-server-accounts.jpg" alt="about" /></p>
+
+<p>계정이 생성되었으니, 이제 각 계정을 구분된 서버 역할에 할당해줘야 한다.<br />
+서버 역할이란 ‘서버 수준의 작업에 대해 어떠한 권한을 가질 수 있는지 미리 정의되어 있는 집합’이라고 이해할 수 있는데, 이러한 서버 역할은 SQL Server에서 기본 제공되어지기도 하고 사용자가 직접 정의할 수도 있다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/authority-control-by-server-roles.jpg" alt="about" /></p>
+
+<p>여기서는 고정 서버 역할이 아닌, 사용자 정의 서버 역할을 직접 정의하고 할당해본다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-user-defined-server-role.png" alt="about" /></p>
+
+<p>일단 위와 같이 새롭게 생성할 사용자 정의 서버 역할의 이름을 ‘tempRole’이라고 지정해주었고, 대상 인스턴스(LABMSSQL) 또한 지정해주었다. 그리고 아래 체크박스를 통해 ‘tempRole’ 역할에 부여할 권한들을 선택해주었다.</p>
+
+<p>여기까지 서버 로그인 계정(InfraTeam1, InfraTeam2)을 생성하였고, 서버 역할(tempRole) 또한 생성하는 과정까지 살펴보았다. 이제 ‘InfraTeam1’ 로그인 계정을 ‘tempRole’ 서버 역할의 멤버로 추가해야한다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/add-account-as-member-of-server-role.png" alt="about" /></p>
+
+<p>‘InfraTeam1’ 로그인 계정이 ‘tempRole’ 서버 역할의 멤버로 추가되었고, 이후 ‘tempRole’의 권한을 변경하면 ‘InfraTeam1’의 권한 또한 함께 변경된다.</p>
+
+<h5 id="3-db-사용자-계정">3. DB 사용자 계정</h5>
+
+<p>두 종류의 계정 중, 서버 로그인 계정에 대한 설정을 살펴보았다. 이제 인스턴스 내에 존재하는 여러 DB 중, 특정 DB에 접근하도록 하기 위한 방법을 알아본다.</p>
+
+<p>앞에서 살펴보았듯, 특정 DB에 접근하기 위해선 DB 사용자 계정을 생성하고 이를 서버 로그인 계정과 매핑하는 과정이 필요하다. 해당 과정 없이는 아래와 같이 경고창과 함께 접근이 제한된다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/db-access-before-account-creation.png" alt="about" /></p>
+
+<p>그럼 DB 사용자 계정을 생성해본다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-db-account.png" alt="about" /></p>
+
+<p>여기서 User type은 ‘SQL user with login’으로 선택하고, Login name은 이전에 생성했던 서버 로그인 계정인 ‘InfraTeam1’을 선택한다. 이렇게 생성과 매핑이 이루어지고 나면, ‘InfraTeam1’ 계정으로 해당 DB에 대한 접근이 가능해진다.</p>
+
+<p>다음으로 진행해야할 것은 DB 사용자 계정에 대한 세부 권한 설정이다. 서버 로그인 계정에서 그 역할의 개념에 대해 살펴봤듯, DB 사용자 계정 또한 SQL Server에서 기본 제공되어지는 역할과 사용자가 직접 정의하는 역할이 존재한다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/authority-control-by-db-roles.jpg" alt="about" /></p>
+
+<p>여기서도 마찬가지로 사용자 정의 DB 역할을 직접 정의하고 할당해본다.</p>
+
+<p><img src="/images/contents/learning/sql-server-operation/server-account-and-authority-management/create-user-defined-db-role.png" alt="about" /></p>
+
+<p>위와 같이 새롭게 생성할 사용자 정의 DB 역할의 이름을 ‘tempRole’이라고 지정해주었고, 해당 역할의 멤버로 포함할 계정 또한 InfraTeam1으로 지정해주었다.<br />
+이제 ‘tempRole’ 역할에 권한을 부여하면 해당 역할의 멤버인 InfraTeam1 계정 또한 부여된 권한을 자동으로 갖게 된다.</p>
 
         </div>
+
+        <div class='c-tags'>
+          
+        </div>
+
+        <hr>
+
+        <!-- <section class='disqus'>
+  <div id='disqus_thread'></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://yjghim.github.io/2024/05/12/server-account-and-authority-management/';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      // Change `aspirethemes-demos` with your Disqus shortcode
+      s.src = '//aspirethemes-demos.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript' rel='nofollow'>comments powered by Disqus.</a></noscript>
+</section> -->
+        
+        <script src="https://utteranc.es/client.js"
+        repo="yjghim/blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+
       </article>
     </div>
   </div>
-
 </div>
 
     <footer class='c-footer'>
